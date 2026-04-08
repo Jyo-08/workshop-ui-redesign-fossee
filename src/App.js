@@ -188,6 +188,11 @@ function App() {
         </div>
 
         <div className="cards" role="list">
+          {workshops.length === 0 && (
+            <p style={{ textAlign: "center", color: "var(--grey-400)" }}>
+              No workshops available at the moment. Check back soon!
+            </p>
+          )}
           {workshops.map((item) => {
             const isFull = item.seats === 0;
 

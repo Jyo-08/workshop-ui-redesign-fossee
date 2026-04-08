@@ -18,16 +18,16 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 
 ---
 
-## Getting Started
+## How to Run
+
+> Requires Node.js v16 or above
 
 ```bash
-git clone https://github.com/Jyo-08/workshop-ui-redesign-fossee.git
-cd workshop-ui-redesign-fossee
 npm install
 npm start
 ```
 
-App runs at `http://localhost:3000`.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 

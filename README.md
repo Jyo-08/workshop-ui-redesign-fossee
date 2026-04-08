@@ -22,9 +22,23 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 
 > Requires Node.js v16 or above
 
+Cloning the Repository
+
+To get a local copy of this project, run the following commands in your terminal:
+
 ```bash
+git clone https://github.com/Jyo-08/workshop-ui-redesign-fossee.git
+cd workshop-ui-redesign-fossee
 npm install
 npm start
+```
+Open http://localhost:3000 in your browser to see the app running.
+Then commit it:
+
+```bash
+git add README.md
+git commit -m "docs: add cloning instructions to README"
+git push
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.

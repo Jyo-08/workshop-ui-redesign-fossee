@@ -1,3 +1,10 @@
+## How to Run
+
+```bash
+npm install
+npm start
+```
+
 # Workshop Booking UI — Redesign
 
 This project was about fixing up the front end of a workshop booking app that already existed.

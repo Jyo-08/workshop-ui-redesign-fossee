@@ -56,6 +56,27 @@ Before, the Django version was just basic, minimal styles, not much flow or mobi
 After with React, it's cleaner, cards for workshops, better nav, smoother user path. Mobile handles way better now.
 
 > Screenshots would go here to compare.
+### Before (Original Django Version)
+
+| Login Page | Statistics Page |
+|---|---|
+| ![Before Login](screenshots/before1.png) | ![Before Stats](screenshots/before2.png) |
+
+### After — Desktop (React Redesign)
+
+| Hero Section | Workshop Cards |
+|---|---|
+| ![After Hero](screenshots/after1.png) | ![After Workshops](screenshots/after2.png) |
+
+| Booking Form |
+|---|
+| ![After Booking](screenshots/after3.png) |
+
+### After — Mobile (React Redesign)
+
+| Hero | Workshops | More Workshops | Booking |
+|---|---|---|---|
+| ![Mobile Hero](screenshots/mobile1.png) | ![Mobile Workshops](screenshots/mobile2.png) | ![Mobile More](screenshots/mobile3.png) | ![Mobile Booking](screenshots/mobile4.png) |
 
 ---
 

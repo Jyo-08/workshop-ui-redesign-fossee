@@ -18,7 +18,7 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 
 ---
 
-## How to Run
+## Getting started 
 
 > Requires Node.js v16 or above
 

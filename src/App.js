@@ -343,7 +343,7 @@ function App() {
         </div>
       </section>
 
-      <footer className="footer" role="contentinfo">
+      <footer className="footer" role="contentinfo" aria-label="Site footer">
         <p>© 2026 Workshop Booking · Built with React</p>
         <p className="footer-sub">A FOSSEE Initiative · IIT Bombay</p>
       </footer>

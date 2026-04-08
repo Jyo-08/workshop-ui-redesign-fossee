@@ -36,6 +36,7 @@ function App() {
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   if (!loggedIn) {
     return <Login onLogin={() => setLoggedIn(true)} />;
@@ -64,17 +65,19 @@ function App() {
       setErrors(validationErrors);
       return;
     }
-
-    setWorkshops((prev) =>
-      prev.map((w) =>
-        w.name === form.workshop && w.seats > 0
-          ? { ...w, seats: w.seats - 1 }
-          : w
-      )
-    );
-
-    setSubmitted(true);
-    setForm({ name: "", email: "", workshop: "" });
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      setWorkshops((prev) =>
+        prev.map((w) =>
+          w.name === form.workshop && w.seats > 0
+            ? { ...w, seats: w.seats - 1 }
+            : w
+        )
+      );
+      setSubmitted(true);
+      setForm({ name: "", email: "", workshop: "" });
+    }, 1000);
   };
 
   const handleReset = () => {
@@ -89,7 +92,7 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar" role="navigation" aria-label="Main navigation">
-        <a href="#home" className="nav-brand" aria-label="Workshop Booking Home">
+        <a href="#home" className="nav-brand" aria-label="Workshop Booking Home" title="Go to homepage">
           <span className="brand-dot" aria-hidden="true">◆</span>
           Workshop Booking
         </a>
@@ -335,8 +338,9 @@ function App() {
                 className="btn-primary btn-full"
                 onClick={handleSubmit}
                 aria-label="Confirm your workshop booking"
+                disabled={loading}
               >
-                Confirm Booking
+                {loading ? "Booking..." : "Confirm Booking"}
               </button>
             </div>
           )}

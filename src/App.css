@@ -501,6 +501,7 @@ body {
   border-top: 1px solid var(--grey-200);
 }
 
+/* Footer text styles */
 .footer p {
   font-size: 13px;
   color: var(--grey-400);

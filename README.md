@@ -1,15 +1,17 @@
+# Workshop Booking UI — Redesign
+
+This project was about fixing up the front end of a workshop booking app that already existed.
+The old version worked okay but looked pretty plain, with not much organization and it did not handle phones well at all.
+I wanted to make it nicer to use, more straightforward, especially by switching to React for the interface.
+
+---
+
 ## How to Run
 
 ```bash
 npm install
 npm start
 ```
-
-# Workshop Booking UI — Redesign
-
-This project was about fixing up the front end of a workshop booking app that already existed.
-The old version worked okay but looked pretty plain, with not much organization and it did not handle phones well at all.
-I wanted to make it nicer to use, more straightforward, especially by switching to React for the interface.
 
 ---
 
@@ -59,31 +61,29 @@ Getting it to work across phones, tablets, desktops took a bunch of testing.
 ## Before vs After
 
 Before, the Django version was just basic, minimal styles, not much flow or mobile fit.
-
 After with React, it's cleaner, cards for workshops, better nav, smoother user path. Mobile handles way better now.
 
-> Screenshots would go here to compare.
 ### Before (Original Django Version)
 
 | Login Page | Statistics Page |
 |---|---|
-| ![Before Login](screenshots/before1.png) | ![Before Stats](screenshots/before2.png) |
+| ![Before Login](screenshots/before/before1.png) | ![Before Stats](screenshots/before/before2.png) |
 
 ### After — Desktop (React Redesign)
 
 | Hero Section | Workshop Cards |
 |---|---|
-| ![After Hero](screenshots/after1.png) | ![After Workshops](screenshots/after2.png) |
+| ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) |
 
 | Booking Form |
 |---|
-| ![After Booking](screenshots/after3.png) |
+| ![After Booking](screenshots/after/after3.png) |
 
 ### After — Mobile (React Redesign)
 
 | Hero | Workshops | More Workshops | Booking |
 |---|---|---|---|
-| ![Mobile Hero](screenshots/mobile1.png) | ![Mobile Workshops](screenshots/mobile2.png) | ![Mobile More](screenshots/mobile3.png) | ![Mobile Booking](screenshots/mobile4.png) |
+| ![Mobile Hero](screenshots/mobile/mobile1.png) | ![Mobile Workshops](screenshots/mobile/mobile2.png) | ![Mobile More](screenshots/mobile/mobile3.png) | ![Mobile Booking](screenshots/mobile/mobile4.png) |
 
 ---
 

@@ -266,9 +266,7 @@ function App() {
         <div className="formBox" role="region" aria-label="Booking form">
           {submitted ? (
             <div className="success-msg" role="alert" aria-live="polite">
-              <span className="success-icon" aria-hidden="true">
-                ✓
-              </span>
+              <span className="success-icon" aria-hidden="true">✓</span>
               <h3>Booking Confirmed!</h3>
               <p>You're all set. Check your email for the confirmation details.</p>
               <button className="btn-primary" onClick={handleReset}>

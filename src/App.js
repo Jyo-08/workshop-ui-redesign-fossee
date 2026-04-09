@@ -3,8 +3,10 @@ import "./App.css";
 import Login from "./Login";
 
 function App() {
+  // Track whether the user is logged in
   const [loggedIn, setLoggedIn] = useState(false);
 
+  // Workshop data - in a real app this would come from an API
   const [workshops, setWorkshops] = useState([
     {
       id: 1,
@@ -32,16 +34,27 @@ function App() {
     },
   ]);
 
+  // Form state for the booking form
   const [form, setForm] = useState({ name: "", email: "", workshop: "" });
+
+  // Stores any validation error messages
   const [errors, setErrors] = useState({});
+
+  // True after a successful booking submission
   const [submitted, setSubmitted] = useState(false);
+
+  // Controls the mobile hamburger menu open/close
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Shows a loading state while the booking is being processed
   const [loading, setLoading] = useState(false);
 
+  // Show login screen if not logged in
   if (!loggedIn) {
     return <Login onLogin={() => setLoggedIn(true)} />;
   }
 
+  // Basic form validation - checks name, email format, and workshop selection
   const validate = () => {
     const newErrors = {};
     if (!form.name.trim()) newErrors.name = "Name is required.";
@@ -54,20 +67,26 @@ function App() {
     return newErrors;
   };
 
+  // Updates form state and clears the error for that field as user types
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
     setErrors({ ...errors, [e.target.name]: "" });
   };
 
+  // Handles form submission with validation and seat count update
   const handleSubmit = () => {
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
     }
+
+    // Show loading state for 1 second to simulate a real submission
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
+
+      // Reduce seat count for the booked workshop
       setWorkshops((prev) =>
         prev.map((w) =>
           w.name === form.workshop && w.seats > 0
@@ -75,15 +94,18 @@ function App() {
             : w
         )
       );
+
       setSubmitted(true);
       setForm({ name: "", email: "", workshop: "" });
     }, 1000);
   };
 
+  // Resets the form so the user can book another workshop
   const handleReset = () => {
     setSubmitted(false);
   };
 
+  // Smooth scrolls to a section by its id and closes mobile menu
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setMenuOpen(false);
@@ -91,12 +113,14 @@ function App() {
 
   return (
     <div className="App">
+      {/* Sticky navbar with mobile hamburger support */}
       <nav className="navbar" role="navigation" aria-label="Main navigation">
         <a href="#home" className="nav-brand" aria-label="Workshop Booking Home" title="Go to homepage">
           <span className="brand-dot" aria-hidden="true">◆</span>
           Workshop Booking
         </a>
 
+        {/* Hamburger button - only visible on mobile */}
         <button
           className="hamburger"
           aria-label={menuOpen ? "Close menu" : "Open menu"}
@@ -128,6 +152,7 @@ function App() {
         </div>
       </nav>
 
+      {/* Hero section with quick stats */}
       <section className="hero" id="home" aria-labelledby="hero-heading">
         <div className="hero-badge" aria-label="Open for registrations">
           <span className="pulse-dot" aria-hidden="true" /> Open for Registrations
@@ -159,6 +184,7 @@ function App() {
           </button>
         </div>
 
+        {/* Quick overview stats */}
         <div className="hero-stats" aria-label="Workshop statistics">
           <div className="stat">
             <span className="stat-num">3</span>
@@ -177,6 +203,7 @@ function App() {
         </div>
       </section>
 
+      {/* Workshop listing section */}
       <section
         className="workshopSection"
         id="workshops"
@@ -188,11 +215,13 @@ function App() {
         </div>
 
         <div className="cards" role="list">
+          {/* Show fallback message if no workshops exist */}
           {workshops.length === 0 && (
             <p style={{ textAlign: "center", color: "var(--grey-400)" }}>
               No workshops available at the moment. Check back soon!
             </p>
           )}
+
           {workshops.map((item) => {
             const isFull = item.seats === 0;
 
@@ -207,6 +236,7 @@ function App() {
                   <span className={`tag tag-${item.tag.toLowerCase()}`}>
                     {item.tag}
                   </span>
+                  {/* Show "Full" badge if no seats remain */}
                   {isFull && <span className="tag tag-full">Full</span>}
                 </div>
 
@@ -217,6 +247,7 @@ function App() {
                 <p className="card-desc">{item.desc}</p>
 
                 <div className="card-footer">
+                  {/* Visual seat availability bar */}
                   <div
                     className="seats-bar"
                     role="meter"
@@ -231,10 +262,12 @@ function App() {
                     />
                   </div>
 
+                  {/* Highlight in amber if seats are low */}
                   <p className={`seats ${item.seats <= 5 ? "seats-low" : ""}`}>
                     {isFull ? "No seats available" : `${item.seats} seats left`}
                   </p>
 
+                  {/* Clicking Book Now prefills the workshop in the form */}
                   <button
                     className={`btn-book ${isFull ? "btn-disabled" : ""}`}
                     onClick={() => {
@@ -257,6 +290,7 @@ function App() {
         </div>
       </section>
 
+      {/* Booking form section */}
       <section className="bookSection" id="book" aria-labelledby="book-heading">
         <div className="section-header">
           <p className="section-eyebrow">Reserve Your Spot</p>
@@ -264,6 +298,7 @@ function App() {
         </div>
 
         <div className="formBox" role="region" aria-label="Booking form">
+          {/* Show success message after booking, otherwise show the form */}
           {submitted ? (
             <div className="success-msg" role="alert" aria-live="polite">
               <span className="success-icon" aria-hidden="true">✓</span>
@@ -324,6 +359,7 @@ function App() {
                   aria-invalid={!!errors.workshop}
                 >
                   <option value="">-- Choose a workshop --</option>
+                  {/* Disable full workshops in the dropdown */}
                   {workshops.map((w) => (
                     <option key={w.id} value={w.name} disabled={w.seats === 0}>
                       {w.name} {w.seats === 0 ? "(Full)" : `(${w.seats} seats)`}
@@ -337,6 +373,7 @@ function App() {
                 )}
               </div>
 
+              {/* Button shows loading text while processing */}
               <button
                 className="btn-primary btn-full"
                 onClick={handleSubmit}

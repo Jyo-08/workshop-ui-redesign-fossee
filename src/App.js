@@ -251,7 +251,7 @@ function App() {
 
                 <h3>{item.name}</h3>
                 <p className="date" aria-label={`Date: ${item.date}`}>
-                  📅 {item.date}
+                   {item.date}
                 </p>
                 <p className="card-desc">{item.desc}</p>
 

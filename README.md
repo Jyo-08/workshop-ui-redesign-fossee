@@ -33,14 +33,6 @@ cd workshop-ui-redesign-fossee
 npm install
 npm start
 ```
-Open http://localhost:3000 in your browser to see the app running.
-Then commit it:
-
-```bash
-git add README.md
-git commit -m "docs: add cloning instructions to README"
-git push
-```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 

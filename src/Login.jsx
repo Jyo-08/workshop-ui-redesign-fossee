@@ -1,15 +1,19 @@
 import { useState } from "react";
 
+// Login component - shown before the user accesses the main app
 export default function Login({ onLogin }) {
+  // Track email and password input values
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   return (
+    // Full screen centered layout with dark gradient background
     <div style={styles.container}>
       <div style={styles.card}>
         <h2 style={styles.heading}>Workshop Booking</h2>
         <p style={styles.subtext}>Sign in to continue</p>
 
+        {/* Email input field */}
         <input
           type="email"
           placeholder="Email"
@@ -18,6 +22,7 @@ export default function Login({ onLogin }) {
           style={styles.input}
         />
 
+        {/* Password input field */}
         <input
           type="password"
           placeholder="Password"
@@ -26,6 +31,7 @@ export default function Login({ onLogin }) {
           style={styles.input}
         />
 
+        {/* Calls the onLogin prop passed from App.js to set loggedIn to true */}
         <button onClick={onLogin} style={styles.button}>
           Sign In
         </button>
@@ -36,7 +42,9 @@ export default function Login({ onLogin }) {
   );
 }
 
+// Inline styles kept here to avoid extra CSS file for a small component
 const styles = {
+  // Full screen flex container with dark gradient
   container: {
     height: "100vh",
     display: "flex",
@@ -45,6 +53,7 @@ const styles = {
     background: "linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%)",
     padding: "20px",
   },
+  // White card centered on screen
   card: {
     background: "#fff",
     padding: "36px 32px",
@@ -65,6 +74,7 @@ const styles = {
     color: "#64748b",
     marginBottom: "24px",
   },
+  // Shared style for both email and password inputs
   input: {
     width: "100%",
     padding: "11px 14px",
@@ -78,6 +88,7 @@ const styles = {
     boxSizing: "border-box",
     outline: "none",
   },
+  // Primary blue submit button
   button: {
     width: "100%",
     padding: "12px",
@@ -91,6 +102,7 @@ const styles = {
     cursor: "pointer",
     fontFamily: "inherit",
   },
+  // Small footer text at bottom of card
   footer: {
     marginTop: "20px",
     fontSize: "12px",

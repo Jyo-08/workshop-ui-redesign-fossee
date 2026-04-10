@@ -124,9 +124,9 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 
 ### After — Desktop
 
-| Hero Section | Workshop Cards | Booking Form |
-|---|---|---|
-| ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) | ![After Booking](screenshots/after/after3.png) |
+| Hero Section | Workshop Cards | Booking Form | Booked and email verification|
+|---|---|---|---|
+| ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) | ![After Booking](screenshots/after/after3.png) | ![Booked Workshops](screenshots/after/after4.png)
 
 ### After — Mobile
 

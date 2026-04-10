@@ -32,6 +32,15 @@ function App() {
       tag: "Intermediate",
       desc: "A beginner-friendly session on artificial intelligence and machine learning with real-world examples.",
     },
+    {
+      id: 4,
+      name: "Full Stack Development Workshop",
+      date: "20 April 2026",
+      seats: 15,
+      tag: "Advanced",
+      desc: "In-depth workshop covering both frontend and backend development for students with some coding experience.",
+    },
+
   ]);
 
   // Form state for the booking form

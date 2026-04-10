@@ -319,9 +319,10 @@ body {
 /* Auto-fill grid - shows 3 columns on desktop, 1 on mobile */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
   gap: 22px;
 }
+
 
 .card {
   background: var(--white);

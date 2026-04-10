@@ -1,9 +1,7 @@
 # Workshop Booking — UI Redesign
 
 A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.com/FOSSEE/workshop_booking) system.
-
 By Jyotish N of VIT Chennai studying BTECH CSE AI AND ML. The below project is for the FOSSEE Python Screening Task.
-
 ---
 
 ## Table of Contents

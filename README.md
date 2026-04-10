@@ -2,13 +2,10 @@
 
 A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.com/FOSSEE/workshop_booking) system.
 
--by Jyotish N 
-
-  VIT CHENNAI
-  
-  B.Tech CSE AI and ML
-  
-  First Year
+-by Jyotish N studying in
+  VIT CHENNAI in the department of 
+  B.Tech CSE AI and ML and I am a
+  First Year student.
 
 ---
 

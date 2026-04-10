@@ -3,8 +3,11 @@
 A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.com/FOSSEE/workshop_booking) system.
 
 -by Jyotish N 
+
   VIT CHENNAI
+  
   B.Tech CSE AI and ML
+  
   First Year
 
 ---

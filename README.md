@@ -130,7 +130,7 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 
 ### After — Mobile
 
-| Hero | Workshops | More Workshops | AI Session | Booking |
+| Hero | Workshops | WebDev and AIML | Full-Stack | Booking |
 |---|---|---|---|---|
 | ![Mobile Hero](screenshots/mobile/mobile1.png) | ![Mobile Available](screenshots/mobile/mobile2.png) | ![Mobile Web Dev and AIML](screenshots/mobile/mobile3.png) | ![Mobile Full Stack](screenshots/mobile/mobile4.png) | ![Mobile Booking](screenshots/mobile/mobile5.png) |
 ---

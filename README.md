@@ -16,6 +16,7 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 - [Tech Stack](#tech-stack)
 - [Before & After](#before--after)
 - [Conclusion](#conclusion)
+- [Notes](#notes)
 
 ---
 

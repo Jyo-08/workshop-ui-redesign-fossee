@@ -51,6 +51,7 @@ The original site was plain and did not work well on phones. Here is what I impr
 - **Seat Availability Bars** — A visual bar shows how many seats are left, which is easier to read than a plain number.
 - **Booking Form** — Fields are grouped clearly with proper labels, making it less confusing to fill out.
 - **Expanded Workshop List** — Added more diverse workshops like Full Stack Development to better represent real-world student interests.
+- **Booking Confirmation Popup** — Informs users that their workshop booking was successful and that they will receive further details via email.
 - **Navigation** — Cleaner nav links with smooth scrolling between sections.
 - **Spacing & Typography** — Better font sizes and spacing so text is easier to read on small screens.
 

@@ -9,6 +9,9 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 
 ## Table of Contents
 
+- [Problem Statement](#problem-statement)
+- [Solution Approach](#solution-approach)
+- [Key Features](#key-features)
 - [Getting Started](#getting-started)
 - [What Changed](#what-changed)
 - [Design Principles](#design-principles)
@@ -22,6 +25,35 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 - [Notes](#notes)
 
 ---
+
+## Problem Statement
+
+The existing FOSSEE Workshop Booking platform was built using Django with minimal frontend styling. While it was functional, it lacked a modern user interface, had poor readability on mobile devices, and did not provide a smooth user experience for students trying to browse and book workshops.
+
+---
+
+## Solution Approach
+
+I approached this as a frontend-only redesign using React. Instead of modifying the backend, I focused on rebuilding the UI layer to be cleaner, faster, and more accessible.
+
+The key decisions were:
+- Switching to a card-based layout so workshops are easier to scan
+- Building mobile-first so the most common use case (students on phones) works best
+- Keeping the code simple and dependency-light so it stays maintainable
+- Adding visual cues like seat availability bars and difficulty tags to help users make decisions faster
+
+---
+
+## Key Features
+
+- **Login Page** — Clean sign-in screen with a dark gradient background
+- **Hero Section** — Welcome banner with quick stats (workshops, seats, entry type)
+- **Workshop Cards** — Each workshop shows its difficulty, date, description, and seat availability
+- **Seat Availability Bar** — Visual progress bar showing remaining seats at a glance
+- **Difficulty Tags** — Color coded tags (Beginner, Intermediate, Advanced) for quick filtering
+- **Booking Form** — Simple form with name, email, and workshop selection with validation
+- **Booking Confirmation** — Success popup confirming the booking and next steps
+- **Responsive Navigation** — Hamburger menu on mobile, full nav on desktop
 
 ## Getting Started 
 

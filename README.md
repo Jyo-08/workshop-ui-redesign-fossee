@@ -152,7 +152,7 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 
 | Advanced Workshop | Booking Form | Booking Confirmed |
 |---|---|---|
-| ![Mobile Advanced](screenshots/mobile/mobile4.png) | ![Mobile Form](screenshots/mobile/mobile6.png) | ![Mobile Confirmed](screenshots/mobile/mobile5.png) |
+| ![Mobile Advanced](screenshots/mobile/mobile4.png) | ![Mobile Form](screenshots/mobile/mobile5.png) | ![Mobile Confirmed](screenshots/mobile/mobile6.png) |
 
 ## Notes
 

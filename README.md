@@ -150,9 +150,9 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|---|
 | ![Mobile Hero](screenshots/mobile/mobile1.png) | ![Mobile Workshops](screenshots/mobile/mobile2.png) | ![Mobile More](screenshots/mobile/mobile3.png) |
 
-| Advanced Workshop | Booking Confirmed | Booking Form |
+| Advanced Workshop | Booking Form | Booking Confirmed |
 |---|---|---|
-| ![Mobile Advanced](screenshots/mobile/mobile4.png) | ![Mobile Confirmed](screenshots/mobile/mobile5.png) | ![Mobile Form](screenshots/mobile/mobile6.png) |
+| ![Mobile Advanced](screenshots/mobile/mobile4.png) | ![Mobile Form](screenshots/mobile/mobile6.png) | ![Mobile Confirmed](screenshots/mobile/mobile5.png) |
 
 ## Notes
 

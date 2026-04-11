@@ -124,9 +124,9 @@ function App() {
     <div className="App">
       {/* Sticky navbar with mobile hamburger support */}
       <nav className="navbar" role="navigation" aria-label="Main navigation">
-        <a href="#home" className="nav-brand" aria-label="Workshop Booking Home" title="Go to homepage">
+        <a href="#home" className="nav-brand" aria-label="FOSSEE Workshops Booking Home" title="Go to homepage">
           <span className="brand-dot" aria-hidden="true">◆</span>
-          Workshop Booking
+          FOSSEE Workshops 
         </a>
 
         {/* Hamburger button - only visible on mobile */}
@@ -397,7 +397,7 @@ function App() {
       </section>
 
       <footer className="footer" role="contentinfo" aria-label="Site footer">
-        <p>© 2026 Workshop Booking · Built with React</p>
+        <p>© 2026 FOSSEE Workshops · Built with React</p>
         <p className="footer-sub">A FOSSEE Initiative · IIT Bombay</p>
       </footer>
     </div>

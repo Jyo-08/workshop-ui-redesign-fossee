@@ -1,5 +1,8 @@
 # Workshop Booking — UI Redesign
 
+Hi, I am **Jyotish N**.
+This is a project for the python screening task of FOSSEE summer fellowship by IIT Bombay.
+The project is to redesign the given UI to a new one using react. I mainly focussed on clarity, responisveness and navigation of the user interface while preserving their original functionality. 
 A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.com/FOSSEE/workshop_booking) system.
 
 ---

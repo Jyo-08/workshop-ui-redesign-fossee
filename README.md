@@ -128,17 +128,30 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|
 | ![Before Login](screenshots/before/before1.png) | ![Before Stats](screenshots/before/before2.png) |
 
+### After Login - Desktop Login
+
+|Login Page|
+|---|
+| ![AfterLogin Login](screenshots/afterLogin/afterlogin.png)
+
 ### After — Desktop
 
 | Hero Section | Workshop Cards | Booking Form | Booked and email verification|
 |---|---|---|---|
 | ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) | ![After Booking](screenshots/after/after3.png) | ![Booked Workshops](screenshots/after/after4.png)
 
+### Mobile Login - Mobile Login
+
+|Login Page|
+|---|
+| ![Mobile Login Login](screenshots/mobileLogin/mobilelogin.png) |
+
+
 ### After — Mobile
 
-| Hero | Workshops | WebDev and AIML | Full-Stack | Booking |
+| Hero | Workshops | WebDev and AIML | Full-Stack | Booking | Booked |
 |---|---|---|---|---|
-| ![Mobile Hero](screenshots/mobile/mobile1.png) | ![Mobile Available](screenshots/mobile/mobile2.png) | ![Mobile Web Dev and AIML](screenshots/mobile/mobile3.png) | ![Mobile Full Stack](screenshots/mobile/mobile4.png) | ![Mobile Booking](screenshots/mobile/mobile5.png) |
+| ![Mobile Hero](screenshots/mobile/mobile1.png) | ![Mobile Available](screenshots/mobile/mobile2.png) | ![Mobile Web Dev and AIML](screenshots/mobile/mobile3.png) | ![Mobile Full Stack](screenshots/mobile/mobile4.png) | ![Mobile Booking](screenshots/mobile/mobile6.png) | ![Mobile Booked](screenshots/mobile/mobile5.png)
 ---
 
 ## Notes

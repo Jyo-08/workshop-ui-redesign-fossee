@@ -2,11 +2,6 @@
 
 A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.com/FOSSEE/workshop_booking) system.
 
--by Jyotish N studying in
-  VIT CHENNAI in the department of 
-  B.Tech CSE AI and ML and I am a
-  First Year student.
-
 ---
 
 ## Table of Contents
@@ -154,6 +149,20 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|---|
 | ![Mobile Advanced](screenshots/mobile/mobile4.png) | ![Mobile Form](screenshots/mobile/mobile5.png) | ![Mobile Confirmed](screenshots/mobile/mobile6.png) |
 
+## Conclusion
+
+This project was not just for the screening task, I learnt more about UI and UX designing which helped me a lot.
+Me in this project completely focused on increasing the clarity, responsiveness and navigation of the UI. 
+The design was kept simple and heavy UI was not used which makes the website user friendly. 
+In the end, I had a very great experience in doing this screening task.
+
 ## Notes
 
 This is a frontend-only redesign. The Django backend has not been changed. The React app can be connected to the existing API endpoints with some configuration.
+
+---
+
+Designed and Developed by **Jyotish N**
+VIT Chennai — B.Tech CSE (AI/ML), First Year
+
+

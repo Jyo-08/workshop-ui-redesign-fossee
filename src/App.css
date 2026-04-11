@@ -362,7 +362,9 @@ body {
 
 .tag-beginner { background: #dcfce7; color: #166534; }
 .tag-intermediate { background: #fef3c7; color: #92400e; }
+.tag-advanced {background : #fef3c7; color : #dc2626;}
 .tag-full { background: #fee2e2; color: #991b1b; }
+
 
 .card h3 {
   font-size: 17px;

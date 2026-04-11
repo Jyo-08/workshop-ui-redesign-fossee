@@ -128,11 +128,11 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|
 | ![Before Login](screenshots/before/before1.png) | ![Before Stats](screenshots/before/before2.png) |
 
-### After Login - Desktop Login
+### Login - Desktop and Mobile Login
 
-|Login Page|
-|---|
-| ![AfterLogin Login](screenshots/afterLogin/afterlogin.png)
+|Desktop Login Page| Mobile Login Page |
+|---|---|
+| ![Login](screenshots/afterLogin/afterlogin.png) | ![Login](screenshots/mobileLogin/mobileLogin.png) |
 
 ### After — Desktop
 
@@ -140,11 +140,6 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|---|---|
 | ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) | ![After Booking](screenshots/after/after3.png) | ![Booked Workshops](screenshots/after/after4.png)
 
-### Mobile Login - Mobile Login
-
-|Login Page|
-|---|
-| ![Mobile Login Login](screenshots/mobileLogin/mobilelogin.png) |
 
 
 ### After — Mobile

@@ -57,6 +57,8 @@ The key decisions were:
 - **Booking Confirmation** — Success popup confirming the booking and next steps
 - **Responsive Navigation** — Hamburger menu on mobile, full nav on desktop
 
+---
+
 ## Getting Started 
 
 > Requires Node.js v16 or above

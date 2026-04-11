@@ -2,7 +2,8 @@
 
 Hi, I am **Jyotish N**.
 This is a project for the python screening task of FOSSEE summer fellowship by IIT Bombay.
-The project is to redesign the given UI to a new one using react. I mainly focussed on clarity, responisveness and navigation of the user interface while preserving their original functionality. 
+The project is to redesign the given UI to a new one using react. I mainly focused on clarity, responsiveness and navigation of the user interface while preserving its original functionality. 
+
 A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.com/FOSSEE/workshop_booking) system.
 
 ---
@@ -200,7 +201,7 @@ Building this project taught me a lot beyond just writing code:
 ## Conclusion
 
 This project was not just for the screening task, I learnt more about UI and UX designing which helped me a lot.
-Me in this project completely focused on increasing the clarity, responsiveness and navigation of the UI. 
+In this project, I completely focused on increasing the clarity, responsiveness and navigation of the UI. 
 The design was kept simple and heavy UI was not used which makes the website user friendly. 
 In the end, I had a very great experience in doing this screening task.
 

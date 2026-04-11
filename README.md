@@ -141,9 +141,9 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|
 | ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) |
 
-| Booking Form | Confirmation |
+| Booking Form | Booking Confirmed |
 |---|---|
-| ![After Booking](screenshots/after/after3.png) | ![After Confirmed](screenshots/afer/after4.png) |
+| ![After Booking](screenshots/after/after3.png) | ![Booking Confirmed](screenshots/after/after4.png) |
 
 ### After — Mobile 
 

@@ -132,7 +132,7 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 
 | Mobile | Desktop |
 |---|---|
-| ![Mobile Login](screenshots/mobileLogin/mobileLogin.png) | ![Desktop Login](screenshots/afterLogin/afterlogin.png) |
+| ![Mobile Login](screenshots/ML/ML.png) | ![Desktop Login](screenshots/AL/AL.png) |
 
 ### After — Desktop (React Redesign)
 

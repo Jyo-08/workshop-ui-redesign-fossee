@@ -23,7 +23,7 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 
 ---
 
-## Getting started 
+## Getting Started 
 
 > Requires Node.js v16 or above
 
@@ -141,9 +141,9 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|
 | ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) |
 
-| Booking Form |
-|---|
-| ![After Booking](screenshots/after/after3.png) |
+| Booking Form | Confirmation |
+|---|---|
+| ![After Booking](screenshots/after/after3.png) | ![After Confirmed](screenshots/afer/after4.png) |
 
 ### After — Mobile 
 

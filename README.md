@@ -20,6 +20,7 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 - [Accessibility & SEO](#accessibility--seo)
 - [Challenges](#challenges)
 - [Tech Stack](#tech-stack)
+- [Learning Outcomes](#learning-outcomes)
 - [Before & After](#before--after)
 - [Conclusion](#conclusion)
 - [Notes](#notes)

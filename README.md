@@ -104,7 +104,7 @@ The original site was plain and did not work well on phones. Here is what I impr
 
 ## Challenges
 
-The hardest part was taking the original flat layout and breaking it into separate React components without breaking anything. The old code had no separation — everything was in one place — so I had to carefully split it into pieces like `NavBar`, `WorkshopCard`, and `BookingForm`.
+The hardest part was structuring the original flat layout into something clean and organized without breaking the existing functionality. I kept everything in App.js to stay focused on the UI improvements rather than over-engineering the component structure.
 
 It was also tricky to decide what to add and what to leave out. I kept reminding myself that clarity and speed matter more than adding extra visual effects.
 

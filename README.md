@@ -119,7 +119,7 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 
 ## Before & After
 
-### Before (Original Django Version)
+### Before 
 
 | Login Page | Statistics Page |
 |---|---|
@@ -131,7 +131,7 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|---|
 | ![Mobile Login](screenshots/ML/ML.png) | ![Desktop Login](screenshots/AL/AL.png) |
 
-### After — Desktop (React Redesign)
+### After — Desktop 
 
 | Hero Section | Workshop Cards |
 |---|---|
@@ -141,7 +141,7 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 |---|
 | ![After Booking](screenshots/after/after3.png) |
 
-### After — Mobile (React Redesign)
+### After — Mobile 
 
 | Hero | Workshops | More Workshops |
 |---|---|---|

@@ -122,32 +122,37 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 
 ## Before & After
 
-### Before — Original Django Version
+### Before (Original Django Version)
 
 | Login Page | Statistics Page |
 |---|---|
 | ![Before Login](screenshots/before/before1.png) | ![Before Stats](screenshots/before/before2.png) |
 
-### Login - Desktop and Mobile Login
+### After — Login Page
 
-|Desktop Login Page| Mobile Login Page |
+| Mobile | Desktop |
 |---|---|
-| ![Login](screenshots/afterLogin/afterlogin.png) | ![Login](screenshots/mobileLogin/mobileLogin.png) |
+| ![Mobile Login](screenshots/login/mobileLogin.png) | ![Desktop Login](screenshots/login/afterlogin.png) |
 
-### After — Desktop
+### After — Desktop (React Redesign)
 
-| Hero Section | Workshop Cards | Booking Form | Booked and email verification|
-|---|---|---|---|
-| ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) | ![After Booking](screenshots/after/after3.png) | ![Booked Workshops](screenshots/after/after4.png)
+| Hero Section | Workshop Cards |
+|---|---|
+| ![After Hero](screenshots/after/after1.png) | ![After Workshops](screenshots/after/after2.png) |
 
+| Booking Form |
+|---|
+| ![After Booking](screenshots/after/after3.png) |
 
+### After — Mobile (React Redesign)
 
-### After — Mobile
+| Hero | Workshops | More Workshops |
+|---|---|---|
+| ![Mobile Hero](screenshots/mobile/mobile1.png) | ![Mobile Workshops](screenshots/mobile/mobile2.png) | ![Mobile More](screenshots/mobile/mobile3.png) |
 
-| Hero | Workshops | WebDev and AIML | Full-Stack | Booking | Booked |
-|---|---|---|---|---|
-| ![Mobile Hero](screenshots/mobile/mobile1.png) | ![Mobile Available](screenshots/mobile/mobile2.png) | ![Mobile Web Dev and AIML](screenshots/mobile/mobile3.png) | ![Mobile Full Stack](screenshots/mobile/mobile4.png) | ![Mobile Booking](screenshots/mobile/mobile6.png) | ![Mobile Booked](screenshots/mobile/mobile5.png)
----
+| Advanced Workshop | Booking Confirmed | Booking Form |
+|---|---|---|
+| ![Mobile Advanced](screenshots/mobile/mobile4.png) | ![Mobile Confirmed](screenshots/mobile/mobile5.png) | ![Mobile Form](screenshots/mobile/mobile6.png) |
 
 ## Notes
 

@@ -152,6 +152,15 @@ It was also tricky to decide what to add and what to leave out. I kept reminding
 | Create React App | Project setup and build |
 
 ---
+## Learning Outcomes
+
+Building this project taught me a lot beyond just writing code:
+- How to think about mobile users first before desktop
+- Why accessibility matters and how small things like `aria-label` make a big difference
+- How to balance visual design with performance — not everything that looks nice is worth adding
+- How to use git properly with meaningful commit messages to document progress
+
+---
 
 ## Before & After
 

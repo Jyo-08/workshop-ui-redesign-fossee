@@ -10,7 +10,7 @@ export default function Login({ onLogin }) {
     // Full screen centered layout with dark gradient background
     <div style={styles.container}>
       <div style={styles.card}>
-        <h2 style={styles.heading}>Workshop Booking</h2>
+        <h2 style={styles.heading}>FOSSEE Workshop Booking</h2>
         <p style={styles.subtext}>Sign in to continue</p>
 
         {/* Email input field */}

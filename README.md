@@ -58,6 +58,28 @@ The key decisions were:
 - **Responsive Navigation** — Hamburger menu on mobile, full nav on desktop
 
 ---
+## UX Thinking
+
+Before writing any code, I thought about who would actually use this platform and what they needed.
+
+**Who is the user?** Mostly college students, many of them on their phones, trying to quickly find and register for a free workshop. They are not tech-savvy power users — they just want to get in, find something useful, and book it without confusion.
+
+**What were the pain points in the original design?**
+- The layout had no visual hierarchy — everything looked the same importance
+- There was no way to quickly see how many seats were left
+- The login page felt plain and gave no sense of what the platform was about
+- On mobile, the site was hard to navigate and buttons were too small to tap comfortably
+
+**How I addressed them:**
+- Cards give each workshop its own space so users can scan quickly instead of reading line by line
+- The seat availability bar gives an instant visual answer to "is there still space?"
+- Difficulty tags (Beginner, Intermediate, Advanced) help students self-filter without reading the full description
+- The hero section tells users what the platform is about the moment they land on it
+- The booking confirmation popup gives immediate feedback so users know their action worked
+
+The goal was to make every interaction feel obvious. If a user has to stop and think about what to do next, the design has already failed.
+
+---
 
 ## Getting Started 
 

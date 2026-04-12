@@ -235,10 +235,11 @@ Building this project taught me a lot beyond just writing code:
 
 ## Conclusion
 
-This project was not just for the screening task, I learnt more about UI and UX designing which helped me a lot.
+This project was not just for the screening task, I learnt a lot more about UI and UX design through this project, which helped me improve my approach to building user-friendly interfaces.
 In this project, I completely focused on increasing the clarity, responsiveness and navigation of the UI. 
 The design was kept simple and heavy UI was not used which makes the website user friendly. 
 In the end, I had a very great experience in doing this screening task.
+
 
 ## Notes
 

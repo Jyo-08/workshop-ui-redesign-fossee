@@ -13,6 +13,7 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 - [Problem Statement](#problem-statement)
 - [Solution Approach](#solution-approach)
 - [Key Features](#key-features)
+- [UX Thniking](#ux-thinking)
 - [Getting Started](#getting-started)
 - [What Changed](#what-changed)
 - [Design Principles](#design-principles)

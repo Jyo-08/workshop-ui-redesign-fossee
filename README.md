@@ -23,6 +23,7 @@ A mobile-first React redesign of the [FOSSEE Workshop Booking](https://github.co
 - [Challenges](#challenges)
 - [Tech Stack](#tech-stack)
 - [Learning Outcomes](#learning-outcomes)
+- [Future Improvements](#future-improvements)
 - [Before & After](#before--after)
 - [Conclusion](#conclusion)
 - [Notes](#notes)
@@ -186,6 +187,15 @@ Building this project taught me a lot beyond just writing code:
 - Why accessibility matters and how small things like `aria-label` make a big difference
 - How to balance visual design with performance — not everything that looks nice is worth adding
 - How to use git properly with meaningful commit messages to document progress
+
+---
+## Future Improvements
+
+- Integration with Django backend APIs for real-time booking
+- Search and filter functionality for workshops
+- User dashboard to track registered workshops
+- Email confirmation system
+- Admin panel enhancements for workshop management
 
 ---
 

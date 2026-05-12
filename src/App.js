@@ -196,12 +196,12 @@ function App() {
         {/* Quick overview stats */}
         <div className="hero-stats" aria-label="Workshop statistics">
           <div className="stat">
-            <span className="stat-num">3</span>
+            <span className="stat-num">4</span>
             <span className="stat-label">Workshops</span>
           </div>
           <div className="stat-divider" aria-hidden="true" />
           <div className="stat">
-            <span className="stat-num">55</span>
+            <span className="stat-num">70</span>
             <span className="stat-label">Total Seats</span>
           </div>
           <div className="stat-divider" aria-hidden="true" />
